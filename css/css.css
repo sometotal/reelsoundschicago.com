@@ -1,0 +1,17 @@
+body { font-size: 75%; background: transparent url(/images/door_bkgd4.jpg) repeat 0 0; }
+#container { width:645px; }
+.ui-icon-arrow-4 { position: absolute; right: 35px; top: 11px; }
+.ui-icon-arrowthickstop-1-n { position:absolute; right: 12px; top: 11px; }
+#show-content { margin:0 auto; }
+.bg-image { position: absolute; top: 0; left: 0; display: none; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+/*  CONTACT  */
+.clearfix { overflow: hidden; }
+.contactContainer               { margin:0 auto 0; text-align:left; }
+.contactContainer label         { display:block; width:100px; float:left; margin-bottom:10px; text-align:right; }
+.contactContainer .text-input   { display:block; width:250px; float:left; border:1px solid gray; }
+.contactContainer .text-area    { display:block; width:250px; float:left; border:1px solid gray; height:200px; }
+.contactContainer .contact-send { margin:10px 0 0 40px; }
+
+#loading { width:220px; height:19px; z-index: 1000; top:12px; right:80px; position: absolute; }
