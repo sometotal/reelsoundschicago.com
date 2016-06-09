@@ -1,5 +1,5 @@
 // tabbed content and positioning
-(function() {
+(function($) {
     var $showContent = $('#show-content');
     var $container = $('#container');
     // To get to:
@@ -40,12 +40,12 @@
         $showContent.hide();
         $container.show();
     });
-})();
+})(window.jQuery);
 
 
 
 // Bkgd Images Gallery
-(function() {
+(function($) {
 
     var theWindow       = $(window);
 
@@ -300,4 +300,4 @@
             }
         });
     });
-})();
+})(window.jQuery);
