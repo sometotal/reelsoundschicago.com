@@ -274,7 +274,7 @@
 
     // do initial load:
     doImageLoading();
-})();
+})(window.jQuery);
 
 // Contact Form
 (function() {
