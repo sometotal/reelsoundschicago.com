@@ -45,6 +45,7 @@
 
 
 // Bkgd Images Gallery
+/*
 (function($) {
 
     var theWindow       = $(window);
@@ -275,6 +276,7 @@
     // do initial load:
     doImageLoading();
 })(window.jQuery);
+*/
 
 // Contact Form
 (function() {
